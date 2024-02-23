@@ -38,16 +38,9 @@ If an application is already included by [EmuDeck](https://github.com/dragoonDor
 
 > Note: This application is designed for **Steam Deck** devices in mind *only*. While this likely will work with any *nix distribution, I cannot guarantee, nor will I support operating systems other than SteamOS. You have been warned.
 
-Download the quick install `.desktop` file by using Right Click->Save File/Save Link As on [this link](https://raw.githubusercontent.com/WingofaGriffin/appimage-deck/main/InstallAIDeck.desktop) on your Steam Deck, then run it from wherever your downloaded it (likely Downloads). Then double-click it to run **WITHOUT** setting it as executable.
-
-If successful, it will create three icons on your desktop. One to run the script, one to update, and one to uninstall. Run `AppImageDeck.desktop` to start the program, and follow the on-screen instructions.
-
-### Expert Installation
-
-If you know what you're doing, just do the typical git clone workflow. I'm not going to give specific instructions for this, as it's a pretty straightforward shell script, and I actively want to discourage people who do not know what they are doing from using this method.
+Download the `.sh` file from the releases page on your Steam Deck. In the terminal, ensure that it is executable with a simple `chmod +x appimage-deck.sh`. Then run it either by double clicking it, or executing it from the terminal.
 
 ## Acknowledgements and Special Thanks
 
 - [EmuDeck](https://github.com/dragoonDorise/EmuDeck) (Godsbane in particular) for the basis of the AppImage update script.
-- CryoByte's [Steam Deck Utilities](https://github.com/CryoByte33/steam-deck-utilities) for the basis of the installation code.
 - Stack Overflow for reminding me how to be a functional developer.

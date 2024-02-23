@@ -1,8 +1,0 @@
-#!/usr/bin/env xdg-open
-[Desktop Entry]
-Name=Install AppImage-Deck
-Exec=curl https://raw.githubusercontent.com/WingofaGriffin/appimage-deck/main/install.sh | bash -s --
-Icon=steamdeck-gaming-return
-Terminal=true
-Type=Application
-StartupNotify=false
